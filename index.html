@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Registration</title>
+  </head>
+ <body> 
+    <header>
+      <h1 class="title">Student Registration Form</h1>
+    </header>
+    <section class="container">
+        <div class="enroll_std">
+          <form class="std_form" autocomplete="off" aria-autocomplete="none" id="studentForm">
+        
+          <label>Username:</label>
+          <input
+            placeholder="username"
+            type="text"
+            name="uname"
+            id="uname"
+            autocomplete="off"
+          /><br /><br />
+          <label>Email ID:</label>
+          <input
+            placeholder="email"
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="off"
+          /><br /><br />
+          <label>Mobileno:</label>
+          <input
+            placeholder="phone"
+            type="number"
+            name="phone"
+            id="phone"
+            autocomplete="off"
+          /><br /><br />
+          <label>Gender</label>
+          <input type="radio" name="gender" value="Female" id="female" />
+          <label id="fem" for="female">Female</label><br />
+          <input type="radio" name="gender" value="Male" id="male" />
+          <label id="mal" for="male">Male</label><br /><br />
+
+          <input value="Enroll" type="button" id="submit_btn" />
+          <button type="button" id="clear_btn" onclick="ClearFields();">
+            Clear
+          </button>
+        </form>
+
+        <hr class="seperation-border" />
+
+        <div class="enrolled_std">
+          <h1>Enrolled Student</h1>
+          <table border="2" id="display">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>MobileNo.</th>
+                <th>Gender</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+<!-- 
+        <img id="my-image" src="/image/image.png" hidden /> -->
+      </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+  </body>
+</html>

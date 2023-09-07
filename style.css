@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.hrmonline.com.au/wp-content/uploads/2019/03/weekly-image-1440x800-1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.title {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 44px;
+}
+
+.enroll_std {
+  display: flex;
+  justify-content: left;
+  color: white;
+}
+
+.std_form {
+  margin-top: 180px;
+  margin-left: 40px;
+  padding: 25px;
+  width: 600px;
+  color: white;
+}
+
+input {
+  margin-left: 20px;
+  padding: 10px;
+  width: 350px;
+  height: 35px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+label {
+  background: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#email {
+  margin-left: 33px;
+}
+
+#submit_btn {
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: 3px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#submit_btn:hover {
+  background-color: rgba(88, 88, 88, 0.517);
+}
+
+#clear_btn {
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#clear_btn:hover {
+  background-color: rgba(88, 88, 88, 0.517);
+}
+
+.seperation-border {
+  border-left: 6px;
+
+  margin-top: 90px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+}
+
+.enrolled_std {
+  margin-top: 110px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 500px;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: 40px;
+  text-align: center;
+  width: 442px;
+  background: rgba(132, 132, 132, 0.789);
+}
+
+#display th,
+#display td {
+  padding: 3px;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+}
+
+#female {
+  height: 20px;
+  margin-left: 45px;
+  width: 20px;
+}
+
+#fem {
+  margin-left: 15px;
+  font-size: 20px;
+}
+#male {
+  height: 20px;
+  margin-left: 120px;
+  width: 20px;
+}
+
+#mal {
+  margin-left: 15px;
+  font-size: 20px;
+}
